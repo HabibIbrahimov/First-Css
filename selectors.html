@@ -7,7 +7,9 @@
     <title>Selectors</title>
 </head>
 <style>
-  /* .intro{
+/* SELECTORS */
+  
+/* .intro{
     color: blue;
   } */
   /* .intro.test{
@@ -101,6 +103,7 @@
 
 
 /* COLORS */
+
 /* p{
   color: rgb(red, green, blue);
 } */
@@ -112,9 +115,59 @@
 } */
 
 
+/* BACKGROUNDS */
+/* body  {
+  background-image: url(./old-brick-black-color-wall-260nw-1605128917.jpg);
+  background-color: #cccccc;
+} */
+/* body  {
+  background-image: url(./old-brick-black-color-wall-260nw-1605128917.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+} */
+/* #example1 {
+  border: 10px dashed green;
+  padding: 25px;
+  background: url(./old-brick-black-color-wall-260nw-1605128917.jpg);
+  background-repeat: no-repeat;
+  background-origin: padding-box;
+} */
+/* #example1 {
+  border: 10px dotted green;
+  padding: 15px;
+  background: lightblue;
+  background-clip: border-box;  
+} */
+/* #example1 {
+  border: 10px dashed black;
+  padding: 25px;
+  background: url(./old-brick-black-color-wall-260nw-1605128917.jpg);
+  background-repeat: no-repeat;
+  background-origin: padding-box;
+} */
+/* body { 
+  background-image: url(./old-brick-black-color-wall-260nw-1605128917.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+} */
+body {
+  background-image: url(./old-brick-black-color-wall-260nw-1605128917.jpg);
+  background-repeat: repeat-y;
+}
+
+
+
+
 </style>
 <body>
-<h1>Demo of the #id selector</h1>
+  <div id="example1">
+    <h2>Hello World</h2>
+    <p>The background image starts from the upper left corner of the padding edge.</p>
+  </div>
+
+
+<!-- <h1>Demo of the #id selector</h1>
 
 <div class="intro">
   <p id="firstname">My name is Habib.</p>
@@ -125,7 +178,7 @@
 </div>
 
 <p>My best friend is Rasul.</p>
-<p class="intro">My best friend is Rasul</p>
+<p class="intro">My best friend is Rasul</p> -->
 <!-- <p></p>
 <p>A paragraph.</p>
 <p>Another paragraph.</p> -->
